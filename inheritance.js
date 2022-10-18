@@ -47,7 +47,7 @@ const neptune = new NeptuneDev('Zahid', 'chapraherhat', 10);
 console.log(neptune);
 const nizam = new NeptuneDev('Nizam', 'Mumbai', 'android studio');
 console.log(nizam);
-nizam.releaseApp('1.4.5')
+nizam.releaseApp('1.4.5. 4')
 // console.log(alia);
 // console.log(aamir);
 // console.log(salman);
