@@ -11,4 +11,10 @@ const products = [
     { name: 'water glass', price: 3, color: 'white' },
 ];
 
-const expensive = products.filter(product =>)
+const expensive = products.filter(product => product.price > 100);
+// console.log(expensive);
+const blacks = products.filter(product => product.color == 'black');
+// console.log(blacks);
+
+const whiteItem = products.find(product => product.color == 'pink');
+console.log(whiteItem);
